@@ -132,23 +132,24 @@ Content: Credenciais, cookies, tokens, arquivos
 
 # 4. ANÁLISE HEXADECIMAL E STRINGS
 ### 4.1. Strings Críticas Extraídas
-text
-# Caminhos de coleta
-```
+
+### Caminhos de coleta
+```text
 C:\Users\%username%\AppData\Local\Google\Chrome\User Data\Local State
 %APPDATA%\Opera Software\Opera Stable\Local State
 %APPDATA%\Discord\Local Storage\leveldb\*.ldb
 ```
 
-# Persistência
+### Persistência
 ```
 Software\Microsoft\Windows\CurrentVersion\Run
 SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions\Paths
 WindowsSystemService
 RuntimeBrokerService
+```
 
-
-# C2 e Exfiltração
+```
+### C2 e Exfiltração
 bill-proof.cc
 api.telegram.org
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
